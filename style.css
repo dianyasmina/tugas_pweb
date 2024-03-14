@@ -1,0 +1,79 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+}
+
+.navbar {
+    
+  }
+  
+  .navbar ul {
+    
+  }
+  
+  .navbar li {
+    background-color: #D9D9D9;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+  }
+
+.profession {
+    text-align: center;
+}
+
+.profession_container {
+    margin: 100px;
+    width: 1018px;
+    height: 653px;
+    background-color: bisque;
+}
+
+    .soldier_container {
+        background-color: wheat;
+        width: 490px;
+        height: 230px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .soldier_background {
+        position: absolute;
+        z-index: 1;
+        margin-top: 50px;
+        width: 490px;
+        height: 180px;
+        border-radius: 20px;
+        background-color: #D5FFDD;
+    }
+
+    .img_soldier {
+        position: absolute;
+        z-index: 2;
+    }
+
+    .green_button {
+        z-index: 3;
+        position: absolute;
+        margin-top: 174px;
+        margin-left: 216px;
+        background-color: #399349; /* Warna latar belakang hijau */
+        color: white; /* Warna teks putih */
+        border: none; /* Hapus border */
+        width: 240px;
+        height: 37px; /* Ruang di dalam tombol */
+        border-radius: 20px; /* Sudut bulat 20px */
+        cursor: pointer; /* Ubah kursor menjadi tanda tangan saat mengarahkan mouse */
+      }
